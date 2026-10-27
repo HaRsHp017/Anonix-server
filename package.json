@@ -1,8 +1,9 @@
+
 {
-  "name": "server",
+  "name": "anonix-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Anonix anonymous chat backend",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
