@@ -105,7 +105,7 @@ io.on("connection", (socket) => {
 // Start server only after MongoDB connects
 connectDB()
   .then(() => {
-    server.listen(5000, () => {
+    server.listen(process.env.PORT || 5000, () => {
       console.log("Server Running on 5000");
     });
   })
