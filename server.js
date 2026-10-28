@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://anonix-six.vercel.app/",
+    origin: "https://anonix-six.vercel.app",
     methods: ["GET", "POST"],
   },
 });
